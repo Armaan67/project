@@ -129,3 +129,24 @@ a {
     color: gray;
 
 }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 300px;
+    background-color: #e5e7eb;
+}
+
+.quote .quote-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+
+
+}
+
+.quote .citation {
+    align-self: flex-end;
+    font-weight: 600;
+}
