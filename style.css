@@ -150,3 +150,37 @@ a {
     align-self: flex-end;
     font-weight: 600;
 }
+
+
+.cta {
+    box-sizing: border-box;
+    align-self: center;
+    width: 70%;
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-between;
+    padding: 40px 100px;
+    margin: 100px;
+    border-radius: 8px;
+    align-items: center;
+
+}
+
+.cta .cta-title {
+    color: #f9faf8;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.cta .cta-subtext {
+    color: #e5e7eb;
+}
+
+.cta button {
+    padding: 5px 25px;
+
+    background-color: #3882f6;
+    border: 2px solid #e5e7eb;
+    border-radius: 8px;
+    color: #e5e7eb;
+}
